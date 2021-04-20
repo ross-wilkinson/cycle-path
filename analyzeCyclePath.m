@@ -7,8 +7,8 @@ function [pd, L, v, dT] = analyzeCyclePath(c1,c2,c3,cad,A,D)
     %       c2  - Front-chainring circumference (teeth)
     %       c3  - Rear-sprocket circumference (teeth)
     %       cad - Cadence (rpm)
-    %       A   - Amplitude of path due to lean
-    %       D   - Straight-line distance from point A to B
+    %       A   - Amplitude of path due to lean (m)
+    %       D   - Straight-line distance from point A to B (m)
     %   Outputs:
     %       pd  - Percentage diff. between new path length and D
     %       L   - New path length (m)
